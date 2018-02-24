@@ -1,0 +1,17 @@
+"pt-BR":
+  hello:
+    friend: "Olá amigo!"
+
+  #butões da Application
+  buttons:
+    show: Mostrar
+    edit: Editar
+    destroy: Deletar
+    new: Novo
+    back: Voltar
+
+  #mensagens da Application
+  message:
+    confirm: Você tem certeza ?
+    listing: Listando
+    errors: na hora de salvar ...

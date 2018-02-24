@@ -1,0 +1,31 @@
+Aqui é só um texto falando sobre o rails:
+  Passos:
+    -rails new meuapp
+    -rails g scaffold Contact rmk:string
+    -rake db:create
+    -rake db:migrate
+    -rails g controller home index
+      dentro da view:
+      link_to "nome", kinds_path
+    -root "home#index"
+    mapeando a rota:
+      -get "home" => "home#index"
+    isso pq ta no /new vai para o controller new
+    objeto que vai receber,campo que vai receber, de onde vai vir, quem paga pra guarda os valores, quem eu mostro
+    -collection_select :contact, :kind_id, Kind.all, :id, :description
+    depois de feita a caixa de seleção, alem de fazer a variavel no new, eu tenho que deixar ela tbm no edit
+    wget url é para fazer download apartir do terminal
+
+    seeds.rb para popular o banco de dados, mas na fase de desenvolvimento, para teste eu uso as rake tasks
+    para criar uma novo task
+      -rails g task utils seed
+    associação belongs_to(pertence a)
+    so da para fazer has_one(tem um) quando possui o id do pertencente ali
+    -params:
+    isso no models
+     -accepts_nested_attributes_for :asasa
+    formulario
+     -fields_for
+    da um new no contato.address, controller
+    I18n - internationalization:
+    config/Application
