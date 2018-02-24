@@ -71,7 +71,7 @@ end
 
 group :production do
   #heroku dependency
-  gem 'pg'
+  gem 'pg', '~> 0.20'
   #heroku dependency
   gem 'rails_12factor'
 end

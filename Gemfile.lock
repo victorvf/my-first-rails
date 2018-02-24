@@ -100,7 +100,7 @@ GEM
     multi_json (1.13.1)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
-    pg (1.0.0)
+    pg (0.21.0)
     pry (0.11.3)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
@@ -202,7 +202,7 @@ DEPENDENCIES
   kaminari
   kaminari-i18n
   lerolero_generator
-  pg
+  pg (~> 0.20)
   pry-rails
   rails (= 4.2.5)
   rails-assets-bootstrap!
